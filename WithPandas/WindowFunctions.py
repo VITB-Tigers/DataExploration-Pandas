@@ -1,19 +1,21 @@
-# File: window_functions.py
-# Purpose: Demonstrate the use of window functions in pandas (similar to SQL window functions)
+# METADATA [WindowFunctions.py] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Developer details:
-#   Name         : Lay Sheth and Rishav Raj
-#   Role         : Software Engineers
-#   Version      : V 1.0
-#   Unit test    : Pass
-#   Integration test: Pass
-#   Description  : This script creates a sample DataFrame and demonstrates the use of window functions
-#                  in pandas, similar to SQL window functions. It shows how to rank employees, calculate
-#                  cumulative sums, compare salaries to department averages, and assign row numbers within groups.
-# numpy==2.1.1
-# pandas==2.2.2
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # Description: This script creates a sample DataFrame and demonstrates the use of window functions
+    # in pandas, similar to SQL window functions. It shows how to rank employees, calculate
+    # cumulative sums, compare salaries to department averages, and assign row numbers within groups.
+
+    # Developed By: 
+        # Name: Mohini Tiwari
+        # Role: Developer
+        # Code ownership rights: Mohini Tiwari
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Dependencies:
+        # Python 3.11.5
+        # Libraries:
+            # Numpy 2.1.1
+            # Pandas 2.2.2
 
 import pandas as pd  # Importing pandas library for data manipulation and analysis
 

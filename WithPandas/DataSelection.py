@@ -1,19 +1,21 @@
-# File: select_columns.py
-# Purpose: Demonstrate how to select certain columns from a DataFrame using pandas
+# METADATA [DataSelection.py] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Developer details:
-#   Name         : Lay Sheth and Rishav Raj
-#   Role         : Software Engineers
-#   Version      : V 1.0
-#   Unit test    : Pass
-#   Integration test: Pass
-#   Description  : This script creates a sample DataFrame and demonstrates various methods to select
-#                  specific columns from the DataFrame using pandas. It also shows how to select
-#                  columns based on conditions.
-# numpy==2.1.1
-# pandas==2.2.2
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # Description: This script creates a sample DataFrame and demonstrates various methods to select
+    # specific columns from the DataFrame using pandas. It also shows how to select
+    # columns based on conditions.
+
+    # Developed By: 
+        # Name: Mohini Tiwari
+        # Role: Developer
+        # Code ownership rights: Mohini Tiwari
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Dependencies:
+        # Python 3.11.5
+        # Libraries:
+            # Numpy 2.1.1
+            # Pandas 2.2.2
 
 import pandas as pd  # Importing pandas library for data manipulation and analysis
 

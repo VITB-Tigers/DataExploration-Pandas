@@ -43,10 +43,10 @@ To use this project, follow these steps to set up your environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Preprod-Labs/DIY-DataExploration-Pandas.git
+   git clone https://github.com/VITB-Tigers/DataExploration-Pandas.git
    ```
 
-2. Create a virtual environment. If using Conda:
+2. Create a virtual environment (recommended). If using Conda:
    ```
    conda create -n *env_name* python==3.12.0 -y
    conda activate *env_name*

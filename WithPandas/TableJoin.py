@@ -1,19 +1,21 @@
-# File: join_tables.py
-# Purpose: Demonstrate different types of joins using pandas
+# METADATA [TableJoin.py] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Developer details:
-#   Name         : Lay Sheth and Rishav Raj
-#   Role         : Software Engineers
-#   Version      : V 1.0
-#   Unit test    : Pass
-#   Integration test: Pass
-#   Description  : This script creates two sample DataFrames and demonstrates various types of joins
-#                  (inner, left, right, outer) using pandas. It shows how to merge DataFrames based
-#                  on a common column and explains the differences between each join type.
-# numpy==2.1.1
-# pandas==2.2.2
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # Description: This script creates two sample DataFrames and demonstrates various types of joins
+    # (inner, left, right, outer) using pandas. It shows how to merge DataFrames based
+    # on a common column and explains the differences between each join type.
+
+    # Developed By: 
+        # Name: Mohini Tiwari
+        # Role: Developer
+        # Code ownership rights: Mohini Tiwari
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Dependencies:
+        # Python 3.11.5
+        # Libraries:
+            # Numpy 2.1.1
+            # Pandas 2.2.2
 
 import pandas as pd  # Importing pandas library for data manipulation and analysis
 

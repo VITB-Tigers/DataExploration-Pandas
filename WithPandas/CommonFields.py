@@ -1,20 +1,21 @@
-# File: common_data_csv.py
-# Purpose: Demonstrate how to check for common data among multiple CSV files using pandas
+# METADATA [CommonFields.py] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Developer details:
-#   Name         : Lay Sheth and Rishav Raj
-#   Role         : Software Engineers
-#   Version      : V 1.0
-#   Unit test    : Pass
-#   Integration test: Pass
-#   Description  : This script creates sample CSV files and demonstrates how to read them using pandas.
-#                  It checks for common data among the CSV files based on specific columns and merges
-#                  the DataFrames to find common rows.
-# numpy==2.1.1
-# pandas==2.2.2
-#
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # Description: This script creates sample CSV files and demonstrates how to read them using pandas.
+    # It checks for common data among the CSV files based on specific columns and merges
+    # the DataFrames to find common rows.
+
+    # Developed By: 
+        # Name: Mohini Tiwari
+        # Role: Developer
+        # Code ownership rights: Mohini Tiwari
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Dependencies:
+        # Python 3.11.5
+        # Libraries:
+            # Numpy 2.1.1
+            # Pandas 2.2.2
 
 import pandas as pd  # Importing pandas library for data manipulation and analysis
 

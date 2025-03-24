@@ -1,21 +1,22 @@
-# File: aggregate_results.py
-# Purpose: Demonstrate how to perform aggregation operations (sum, avg, max, min) using pandas
+# METADATA [AggregateResults.py] - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# META DATA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Developer details:
-#   Name         : Lay Sheth and Rishav Raj
-#   Role         : Software Engineers
-#   Version      : V 1.0
-#   Unit test    : Pass
-#   Integration test: Pass
-#   Description  : This script creates a sample DataFrame and performs various aggregation
-#                  operations such as sum, average, maximum, and minimum grouped by categories.
-#                  It also demonstrates how to apply multiple aggregations on different columns.
-#                  Users can modify the DataFrame and aggregation functions to suit their data analysis needs.
-#
-#numpy==2.1.1
-#pandas==2.2.2
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    # Description: This script creates a sample DataFrame and performs various aggregation 
+    # operations such as sum, average, maximum, and minimum grouped by categories.
+    # It also demonstrates how to apply multiple aggregations on different columns.
+    # Users can modify the DataFrame and aggregation functions to suit their data analysis needs.
+
+    # Developed By: 
+        # Name: Mohini Tiwari
+        # Role: Developer
+        # Code ownership rights: Mohini Tiwari
+
+# CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    # Dependencies:
+        # Python 3.11.5
+        # Libraries:
+            # Numpy 2.1.1
+            # Pandas 2.2.2
 
 import pandas as pd  # Importing pandas library for data manipulation and analysis
 
